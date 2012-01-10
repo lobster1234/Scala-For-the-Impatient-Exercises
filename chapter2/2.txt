@@ -1,0 +1,4 @@
+scala> val x = {}
+x: Unit = ()
+
+

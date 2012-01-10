@@ -1,0 +1,2 @@
+scala> val x:Unit={val y = 1}
+x: Unit = ()

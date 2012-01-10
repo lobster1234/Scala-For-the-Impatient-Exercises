@@ -1,0 +1,19 @@
+scala> def signum(x:Int):Int={if(x>0) 1 else if (x==0) 0 else -1}
+signum: (x: Int)Int
+
+scala> signum(1)
+res0: Int = 1
+
+scala> signum(0)
+res1: Int = 0
+
+scala> signum(-1)
+res2: Int = -1
+
+scala> signum(-20)
+res3: Int = -1
+
+scala> signum(20)
+res4: Int = 1
+
+

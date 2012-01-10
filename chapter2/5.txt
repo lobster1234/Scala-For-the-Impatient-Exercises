@@ -1,0 +1,17 @@
+scala> def countdown(n:Int){for(i<-n to 0 by -1) println(i)}
+countdown: (n: Int)Unit
+
+scala> countdown(9)
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+
+scala> 
+
