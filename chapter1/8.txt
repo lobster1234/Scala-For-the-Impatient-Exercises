@@ -1,0 +1,11 @@
+scala> import scala.math.BigInt._
+import scala.math.BigInt._
+
+scala> import scala.util._
+import scala.util._
+
+scala> probablePrime(100,Random).toString(36)
+res5: String = 22y8eafq779zmcxbc3jh
+
+scala> probablePrime(100,Random).toString(36)
+res6: String = 2qa77l09h8f58kvhyert

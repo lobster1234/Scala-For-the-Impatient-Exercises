@@ -1,0 +1,3 @@
+scala> "crazy"*3
+res2: String = crazycrazycrazy
+

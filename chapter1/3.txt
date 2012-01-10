@@ -1,0 +1,6 @@
+cala> res1 = 3.0
+<console>:12: error: reassignment to val
+       res1 = 3.0
+            ^
+
+scala> 

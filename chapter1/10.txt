@@ -1,0 +1,27 @@
+scala> "Manish".take(1)
+res10: String = M
+
+scala> "Manish".take(2)
+res11: String = Ma
+
+scala> "Manish".takeRight(1)
+res12: String = h
+
+scala> "Manish".takeRight(2)
+res13: String = sh
+
+scala> "Manish".dropRight(1)
+res14: String = Manis
+
+scala> "Manish".drop(1)
+res15: String = anish
+
+scala> "Manish".drop(2)
+res16: String = nish
+
+scala> "Manish".dropRight(2)
+res17: String = Mani
+
+scala> "Manish".substring(1,"Manish".length)
+res18: java.lang.String = anish
+

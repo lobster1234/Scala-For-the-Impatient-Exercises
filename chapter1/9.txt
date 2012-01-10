@@ -1,0 +1,8 @@
+scala> "Manish".take(1)
+res7: String = M
+
+scala> "Manish".head
+res8: Char = M
+
+scala> "Manish".takeRight(1)
+res9: String = h

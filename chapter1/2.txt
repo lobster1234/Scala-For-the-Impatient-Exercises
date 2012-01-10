@@ -1,0 +1,10 @@
+scala> import scala.math._
+import scala.math._
+
+scala> sqrt(3)
+res0: Double = 1.7320508075688772
+
+scala> pow(res0,2)
+res1: Double = 2.9999999999999996
+
+scala> 

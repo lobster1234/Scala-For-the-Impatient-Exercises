@@ -1,0 +1,7 @@
+scala> import scala.math.BigInt._
+import scala.math.BigInt._
+
+scala> 10 pow 2
+res3: scala.math.BigInt = 100
+
+
