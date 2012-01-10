@@ -1,0 +1,9 @@
+scala> def product(s : String):Int={var prod=1; s.foreach((c:Char)=>prod*=c.toInt);prod  }
+product: (s: String)Int
+
+scala> product("Hello")
+res0: Int = 825152896
+
+scala> 
+
+
