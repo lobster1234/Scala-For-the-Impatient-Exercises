@@ -1,0 +1,11 @@
+//Not sure if this is the right way, as I've to use a var. There has to be a better way.
+
+scala> var product = 1
+product: Int = 1
+
+scala> for(c <- "Hello") {product*=c.toInt}
+
+scala> product
+res29: Int = 825152896
+
+

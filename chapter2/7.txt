@@ -1,0 +1,9 @@
+scala> var prod = 1
+prod: Int = 1
+
+scala> "Hello".foreach((c:Char)=>prod*=c.toInt)
+
+scala> prod
+res36: Int = 825152896
+
+
