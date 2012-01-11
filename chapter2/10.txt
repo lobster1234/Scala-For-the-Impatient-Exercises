@@ -1,0 +1,8 @@
+scala> def pow(x:Int,n:Int):Int = if(n==0) 1 else x*pow(x,n-1)
+pow: (x: Int, n: Int)Int
+
+scala> pow(2,3)
+res42: Int = 8
+
+//For the life of me I cannot figure out what the question meant for when n is even and +ve, and where n is negative.
+
