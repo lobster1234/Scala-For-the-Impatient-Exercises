@@ -1,0 +1,1 @@
+def product(s : String):Int={ if(s.length==0) 1 else s(0).toInt*product(s.drop(1)) }
