@@ -1,0 +1,25 @@
+//Making sure this works for both even and odd sized arrays
+
+scala> val arr = Array(11, 10, 1, 20, 2, 3, 5, 9)
+arr: Array[Int] = Array(11, 10, 1, 20, 2, 3, 5, 9)
+
+scala> arr.size
+res134: Int = 8
+
+scala> for(i<-0 to arr.size by 2 if i< arr.size-1) { val temp = arr(i); arr(i)=arr(i+1); arr(i+1)=temp }
+
+scala> arr
+res136: Array[Int] = Array(10, 11, 20, 1, 3, 2, 9, 5)
+
+scala> val arr = Array(11, 10, 1, 20, 2, 3, 5, 9,4)
+arr: Array[Int] = Array(11, 10, 1, 20, 2, 3, 5, 9, 4)
+
+scala> arr.size
+res137: Int = 9
+
+scala> for(i<-0 to arr.size by 2 if i< arr.size-1) { val temp = arr(i); arr(i)=arr(i+1); arr(i+1)=temp }
+
+scala> arr
+res139: Array[Int] = Array(10, 11, 20, 1, 3, 2, 9, 5, 4)
+
+scala> 
