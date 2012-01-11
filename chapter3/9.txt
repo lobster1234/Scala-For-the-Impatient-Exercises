@@ -1,0 +1,16 @@
+scala> import collection.JavaConversions._
+import collection.JavaConversions._
+
+scala> import util.Sorting._
+import util.Sorting._
+
+scala> val x = java.util.TimeZone.getAvailableIDs.filter(_.startsWith("America/")).map(_.stripPrefix("America/"))
+x: Array[java.lang.String] = Array(Adak, Atka, Anchorage, Juneau, Nome, Sitka, Yakutat, Dawson, Ensenada, Los_Angeles, Metlakatla, Santa_Isabel, Tijuana, Vancouver, Whitehorse, Boise, Cambridge_Bay, Chihuahua, Dawson_Creek, Denver, Edmonton, Hermosillo, Inuvik, Mazatlan, Ojinaga, Phoenix, Shiprock, Yellowknife, Bahia_Banderas, Belize, Cancun, Chicago, Costa_Rica, El_Salvador, Guatemala, Indiana/Knox, Indiana/Tell_City, Knox_IN, Managua, Matamoros, Menominee, Merida, Mexico_City, Monterrey, North_Dakota/Beulah, North_Dakota/Center, North_Dakota/New_Salem, Rainy_River, Rankin_Inlet, Regina, Swift_Current, Tegucigalpa, Winnipeg, Atikokan, Bogota, Cayman, Coral_Harbour, Detroit, Fort_Wayne, Grand_Turk, Guayaquil, Havana, Indiana/Indianapolis, Indiana/Marengo, Indiana/Petersburg, Indiana/Vev...
+
+scala> quickSort(x)
+
+scala> x
+res47: Array[java.lang.String] = Array(Adak, Anchorage, Anguilla, Antigua, Araguaina, Argentina/Buenos_Aires, Argentina/Catamarca, Argentina/ComodRivadavia, Argentina/Cordoba, Argentina/Jujuy, Argentina/La_Rioja, Argentina/Mendoza, Argentina/Rio_Gallegos, Argentina/Salta, Argentina/San_Juan, Argentina/San_Luis, Argentina/Tucuman, Argentina/Ushuaia, Aruba, Asuncion, Atikokan, Atka, Bahia, Bahia_Banderas, Barbados, Belem, Belize, Blanc-Sablon, Boa_Vista, Bogota, Boise, Buenos_Aires, Cambridge_Bay, Campo_Grande, Cancun, Caracas, Catamarca, Cayenne, Cayman, Chicago, Chihuahua, Coral_Harbour, Cordoba, Costa_Rica, Cuiaba, Curacao, Danmarkshavn, Dawson, Dawson_Creek, Denver, Detroit, Dominica, Edmonton, Eirunepe, El_Salvador, Ensenada, Fort_Wayne, Fortaleza, Glace_Bay, Godthab, Goose_Bay, Gran...
+
+scala> 
+
