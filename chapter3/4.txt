@@ -1,0 +1,18 @@
+scala> val arr = Array(1,-2,3,-4,8,-7,6,10,-12,0,-1,-8)
+arr: Array[Int] = Array(1, -2, 3, -4, 8, -7, 6, 10, -12, 0, -1, -8)
+
+scala> val result = ArrayBuffer[Int]()
+result: scala.collection.mutable.ArrayBuffer[Int] = ArrayBuffer()
+
+scala> arr.filter(_>0).foreach(result+=_)
+
+scala> result
+res151: scala.collection.mutable.ArrayBuffer[Int] = ArrayBuffer(1, 3, 8, 6, 10)
+
+scala> arr.filter(_<=0).foreach(result+=_)
+
+scala> result
+res153: scala.collection.mutable.ArrayBuffer[Int] = ArrayBuffer(1, 3, 8, 6, 10, -2, -4, -7, -12, 0, -1, -8)
+
+scala> result.toArray
+res154: Array[Int] = Array(1, 3, 8, 6, 10, -2, -4, -7, -12, 0, -1, -8)
